@@ -1,0 +1,30 @@
+body {
+  align-content: center;
+  background-attachment: fixed;
+  // background-image: url("svg/curve.svg");
+  background-position: 0 75vh;
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: ProximaNova;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-size: contain;;
+  overflow-y: auto;
+}
+
+.earthquakes{
+  padding: 10px 20px 20px 20px;
+}
+
+.table{
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 5px 10px #ccc;
+}
+
+

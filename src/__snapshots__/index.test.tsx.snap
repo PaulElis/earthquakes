@@ -1,0 +1,1994 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Earthquake App  matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="earthquakes"
+      >
+        <form>
+          <div
+            class="MuiFormControl-root MuiTextField-root makeStyles-input-1"
+          >
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-searchIcon-3 MuiSvgIcon-colorDisabled"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                id="outlined-basic"
+                placeholder="Search by Location"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legend-5"
+                  style="width: 0.01px;"
+                >
+                  <span>
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+        <table
+          class="table"
+        >
+          <thead>
+            <tr
+              data-testid="table-header-row"
+            >
+              <td
+                class="cell"
+              >
+                ID
+              </td>
+              <td
+                class="cell"
+              >
+                Time
+              </td>
+              <td
+                class="cell"
+              >
+                Location
+              </td>
+              <td
+                class="cell"
+              >
+                Magnitude
+              </td>
+              <td
+                class="cell"
+              >
+                More
+              </td>
+            </tr>
+          </thead>
+          <tbody
+            data-testid="tbody"
+          >
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a15p
+              </td>
+              <td
+                class="table-cell"
+              >
+                July 25, 2017 @ 19:23
+              </td>
+              <td
+                class="table-cell"
+              >
+                228km SSW of Bengkulu, Indonesia
+              </td>
+              <td
+                class="table-cell"
+              >
+                5.3
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a6mh
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 9, 2017 @ 17:30
+              </td>
+              <td
+                class="table-cell"
+              >
+                106km N of Maurole, Indonesia
+              </td>
+              <td
+                class="table-cell"
+              >
+                5
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000advt
+              </td>
+              <td
+                class="table-cell"
+              >
+                September 1, 2017 @ 12:48
+              </td>
+              <td
+                class="table-cell"
+              >
+                11km S of Lardos, Greece
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.9
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000ai1z
+              </td>
+              <td
+                class="table-cell"
+              >
+                September 8, 2017 @ 08:46
+              </td>
+              <td
+                class="table-cell"
+              >
+                72km SW of Tres Picos, Mexico
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.7
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a7f8
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 11, 2017 @ 16:17
+              </td>
+              <td
+                class="table-cell"
+              >
+                19km NW of Vice, Peru
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.7
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a5e1
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 6, 2017 @ 16:09
+              </td>
+              <td
+                class="table-cell"
+              >
+                Southwest Indian Ridge
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.7
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000aclr
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 28, 2017 @ 15:51
+              </td>
+              <td
+                class="table-cell"
+              >
+                191km SSE of Sigave, Wallis and Futuna
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.6
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000aafv
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 21, 2017 @ 18:37
+              </td>
+              <td
+                class="table-cell"
+              >
+                47km SE of Kamaishi, Japan
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.6
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000ad8v
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 30, 2017 @ 15:47
+              </td>
+              <td
+                class="table-cell"
+              >
+                282km WNW of Abepura, Indonesia
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.5
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a8sp
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 16, 2017 @ 11:35
+              </td>
+              <td
+                class="table-cell"
+              >
+                193km SSW of Ndoi Island, Fiji
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.5
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a0gj
+              </td>
+              <td
+                class="table-cell"
+              >
+                July 24, 2017 @ 14:09
+              </td>
+              <td
+                class="table-cell"
+              >
+                119km ENE of Miyako, Japan
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.5
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000abdg
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 24, 2017 @ 12:18
+              </td>
+              <td
+                class="table-cell"
+              >
+                87km SW of Puerto Madero, Mexico
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.4
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a5k2
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 1, 2017 @ 14:26
+              </td>
+              <td
+                class="table-cell"
+              >
+                120km SSW of Sigave, Wallis and Futuna
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.4
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a05j
+              </td>
+              <td
+                class="table-cell"
+              >
+                July 23, 2017 @ 16:13
+              </td>
+              <td
+                class="table-cell"
+              >
+                17km S of Karakenja, Tajikistan
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.4
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a1q8
+              </td>
+              <td
+                class="table-cell"
+              >
+                July 22, 2017 @ 16:34
+              </td>
+              <td
+                class="table-cell"
+              >
+                59km SE of L'Esperance Rock, New Zealand
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.4
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a1cl
+              </td>
+              <td
+                class="table-cell"
+              >
+                July 21, 2017 @ 07:45
+              </td>
+              <td
+                class="table-cell"
+              >
+                94km ESE of Pangai, Tonga
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.4
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000afqz
+              </td>
+              <td
+                class="table-cell"
+              >
+                September 4, 2017 @ 19:44
+              </td>
+              <td
+                class="table-cell"
+              >
+                68km SSW of Jiquilillo, Nicaragua
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.3
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000abbg
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 19, 2017 @ 17:22
+              </td>
+              <td
+                class="table-cell"
+              >
+                153km S of Tambakrejo, Indonesia
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.3
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a6g8
+              </td>
+              <td
+                class="table-cell"
+              >
+                August 5, 2017 @ 18:06
+              </td>
+              <td
+                class="table-cell"
+              >
+                37km W of Gisborne, New Zealand
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.3
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="closed-row"
+            >
+              <td
+                class="table-cell"
+              >
+                us2000a3n1
+              </td>
+              <td
+                class="table-cell"
+              >
+                July 28, 2017 @ 15:57
+              </td>
+              <td
+                class="table-cell"
+              >
+                133km SSE of Vilyuchinsk, Russia
+              </td>
+              <td
+                class="table-cell"
+              >
+                4.3
+              </td>
+              <td
+                class="table-cell"
+              >
+                <button
+                  class="closed-button"
+                  data-testid="details-button"
+                >
+                  Details
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="earthquakes"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiTextField-root makeStyles-input-1"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-searchIcon-3 MuiSvgIcon-colorDisabled"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              />
+            </svg>
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              id="outlined-basic"
+              placeholder="Search by Location"
+              type="text"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+              style="padding-left: 8px;"
+            >
+              <legend
+                class="PrivateNotchedOutline-legend-5"
+                style="width: 0.01px;"
+              >
+                <span>
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </form>
+      <table
+        class="table"
+      >
+        <thead>
+          <tr
+            data-testid="table-header-row"
+          >
+            <td
+              class="cell"
+            >
+              ID
+            </td>
+            <td
+              class="cell"
+            >
+              Time
+            </td>
+            <td
+              class="cell"
+            >
+              Location
+            </td>
+            <td
+              class="cell"
+            >
+              Magnitude
+            </td>
+            <td
+              class="cell"
+            >
+              More
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          data-testid="tbody"
+        >
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a15p
+            </td>
+            <td
+              class="table-cell"
+            >
+              July 25, 2017 @ 19:23
+            </td>
+            <td
+              class="table-cell"
+            >
+              228km SSW of Bengkulu, Indonesia
+            </td>
+            <td
+              class="table-cell"
+            >
+              5.3
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a6mh
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 9, 2017 @ 17:30
+            </td>
+            <td
+              class="table-cell"
+            >
+              106km N of Maurole, Indonesia
+            </td>
+            <td
+              class="table-cell"
+            >
+              5
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000advt
+            </td>
+            <td
+              class="table-cell"
+            >
+              September 1, 2017 @ 12:48
+            </td>
+            <td
+              class="table-cell"
+            >
+              11km S of Lardos, Greece
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.9
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000ai1z
+            </td>
+            <td
+              class="table-cell"
+            >
+              September 8, 2017 @ 08:46
+            </td>
+            <td
+              class="table-cell"
+            >
+              72km SW of Tres Picos, Mexico
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.7
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a7f8
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 11, 2017 @ 16:17
+            </td>
+            <td
+              class="table-cell"
+            >
+              19km NW of Vice, Peru
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.7
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a5e1
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 6, 2017 @ 16:09
+            </td>
+            <td
+              class="table-cell"
+            >
+              Southwest Indian Ridge
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.7
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000aclr
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 28, 2017 @ 15:51
+            </td>
+            <td
+              class="table-cell"
+            >
+              191km SSE of Sigave, Wallis and Futuna
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.6
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000aafv
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 21, 2017 @ 18:37
+            </td>
+            <td
+              class="table-cell"
+            >
+              47km SE of Kamaishi, Japan
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.6
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000ad8v
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 30, 2017 @ 15:47
+            </td>
+            <td
+              class="table-cell"
+            >
+              282km WNW of Abepura, Indonesia
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.5
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a8sp
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 16, 2017 @ 11:35
+            </td>
+            <td
+              class="table-cell"
+            >
+              193km SSW of Ndoi Island, Fiji
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.5
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a0gj
+            </td>
+            <td
+              class="table-cell"
+            >
+              July 24, 2017 @ 14:09
+            </td>
+            <td
+              class="table-cell"
+            >
+              119km ENE of Miyako, Japan
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.5
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000abdg
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 24, 2017 @ 12:18
+            </td>
+            <td
+              class="table-cell"
+            >
+              87km SW of Puerto Madero, Mexico
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.4
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a5k2
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 1, 2017 @ 14:26
+            </td>
+            <td
+              class="table-cell"
+            >
+              120km SSW of Sigave, Wallis and Futuna
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.4
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a05j
+            </td>
+            <td
+              class="table-cell"
+            >
+              July 23, 2017 @ 16:13
+            </td>
+            <td
+              class="table-cell"
+            >
+              17km S of Karakenja, Tajikistan
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.4
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a1q8
+            </td>
+            <td
+              class="table-cell"
+            >
+              July 22, 2017 @ 16:34
+            </td>
+            <td
+              class="table-cell"
+            >
+              59km SE of L'Esperance Rock, New Zealand
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.4
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a1cl
+            </td>
+            <td
+              class="table-cell"
+            >
+              July 21, 2017 @ 07:45
+            </td>
+            <td
+              class="table-cell"
+            >
+              94km ESE of Pangai, Tonga
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.4
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000afqz
+            </td>
+            <td
+              class="table-cell"
+            >
+              September 4, 2017 @ 19:44
+            </td>
+            <td
+              class="table-cell"
+            >
+              68km SSW of Jiquilillo, Nicaragua
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.3
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000abbg
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 19, 2017 @ 17:22
+            </td>
+            <td
+              class="table-cell"
+            >
+              153km S of Tambakrejo, Indonesia
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.3
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a6g8
+            </td>
+            <td
+              class="table-cell"
+            >
+              August 5, 2017 @ 18:06
+            </td>
+            <td
+              class="table-cell"
+            >
+              37km W of Gisborne, New Zealand
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.3
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="closed-row"
+          >
+            <td
+              class="table-cell"
+            >
+              us2000a3n1
+            </td>
+            <td
+              class="table-cell"
+            >
+              July 28, 2017 @ 15:57
+            </td>
+            <td
+              class="table-cell"
+            >
+              133km SSE of Vilyuchinsk, Russia
+            </td>
+            <td
+              class="table-cell"
+            >
+              4.3
+            </td>
+            <td
+              class="table-cell"
+            >
+              <button
+                class="closed-button"
+                data-testid="details-button"
+              >
+                Details
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

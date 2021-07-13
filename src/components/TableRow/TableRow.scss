@@ -1,0 +1,60 @@
+.Row {
+  display: block;
+}
+
+table {
+  // font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-cell {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr.closed-row:nth-child(even) {
+  background-color: #eee;
+}
+
+.open-cell{
+  background-color: #8dd4f2;
+}
+
+.open-details-row{
+  color: #0366d6;
+  text-align-last: center;
+  background-color: #8dd4f2;
+}
+
+tr.open-details-row td{
+  border-style: hidden;
+}
+
+td.open-details-data{
+  padding: 8px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.closed-button {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0366d6;
+  border-radius: 2px;
+  color: #0366d6;
+  background-color: white;
+}
+
+.open-button {
+  display: flex;
+  align-items: center;
+  color: white;
+  letter-spacing: 1px;
+  background-color: #0366d6;
+  border: 0;
+  border-radius: 2px;
+}
